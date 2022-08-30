@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+</head>
+<body>
+    <h2 id="cabecalho"> Sistema de consulta de CEP</h2>
+
+    <form id="enderecoCompleto">
+        <label for="txtNome">Nome do cliente:</label> 
+        <input type="text" id="txtNome"/><br><br>
+
+        <label for="cepInserido">Inclua um CEP:</label> 
+        <input type="text" id="cepInserido"/><br><br>
+        <button type="button" onclick='consultarCep()' id="btnConsulta">Consultar</button>
+        <button type="button" onclick='limpaCep()' 
+        id="btnDeletar">Limpar</button><br><br>
+
+        <label for="txtEndereco">Endereço:</label> 
+        <input type="text" id="txtEndereco"/><br><br>
+
+        <label for="txtBairro">Bairro:</label> 
+        <input type="text" id="txtBairro"/><br><br>
+
+        <label for="txtCep">CEP:</label> 
+        <input type="text" id="txtCep"/><br><br>
+
+        <label for="txtCidade">Cidade:</label> 
+        <input type="text" id="txtCidade"/><br><br>
+
+        <label for="txtEstado">Estado:</label> 
+        <input type="text" id="txtEstado"/>
+
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>
